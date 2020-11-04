@@ -12,7 +12,7 @@ for (let time of times) {
 
     setTimeout(() => {
       process.stdout.write('\x07');
-    }, 250);
+    }, (time * 1000));
   
   }
 }
